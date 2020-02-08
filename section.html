@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- 스타일을 입힐 때 p태그가 여럿인 경우 특정한 p 태그에만 CSS를 적용하고 싶다. 어떡하면 좋을까? 클래스를 나타내는 표시는 .이다 -->
+<html>
+	<head>
+		<title>id/class example</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			.big-blue-text {
+				font-size: 34px;
+				color: blue;
+			}
+			.centered-text {
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1 class="centered-text">heading 1</h1>
+		<h2 class="big-blue-text centered-text">heading 2</h2>
+
+		<p>first paragraph</p>
+		<p>second paragraph</p>
+		<p class="big-blue-text">third paragraph</p>
+		<p>forth paragraph</p>
+	</body>
+</html>
