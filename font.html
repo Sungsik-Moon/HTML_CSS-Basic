@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Sunflower:300&display=swap" rel="stylesheet">
+	<style type="text/css">
+		h1 {
+			font-family: 'Sunflower', sans-serif;
+			/*폰트가 PC에 설치되어 있지 않을 때는 대비 제 2의 폰트를 지정할 수 있음*/
+		}
+		h2 {
+			font-family: 'Noto Sans KR', sans-serif;
+		}
+		body {
+			font-size: 16pt;
+		}
+		/*바디 전체의 폰트사이드를 설정하고 아래에 div 클래스들을 비율로 커지게 만들 수 있다.*/
+		.div1 {
+			font-size: 100%;
+		}
+/*1em == 100%*/
+		.div2 {
+			font-size: 200%;
+		}
+		/*div2 ~ 3로 넘어가면서 글씨 크기가 점점 커진다. 분모 요소의 폰트 크기를 기준으로 % 가 적용되기 때문*/
+		.div3 {
+			font-size: 200%;
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		Trying out Different Fonts
+	</h1>
+	<h2>
+		You can use another fonts
+	</h2>
+	<div class="div1">
+		div1
+		<div class="div2">
+			div2
+			<div class="div3">
+				div3
+			</div>
+		</div>
+	</div>
+</body>
+</html>

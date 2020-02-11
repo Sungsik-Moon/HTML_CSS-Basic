@@ -1,4 +1,5 @@
-<!DOCTYPE html> <!--웹 브라우저에게 html 버전을 알려주는 역할-->
+<!DOCTYPE html> 
+<!--웹 브라우저에게 html 버전을 알려주는 역할-->
 <html>
 <title> My First Website</title>
 	<head>
@@ -8,6 +9,7 @@
 		h1{
 			font-size: 64px;
 			text-align: center;
+			font-weight: 200;
 		}
 		}
 		h3{
@@ -16,20 +18,43 @@
 		p i{
 			font-size: 48px;	
 		}
+		/*파라그래프의 a만 분홍색으로 */
 		p a{
 			font-size: 25px;
 			color: hotpink;
 		}
+		#Intro{
+			color : orange;
+			font-size: 25pxs;
+			font-weight: 500;
+		}
+		.money {
+			color: red;
+			font-size: 20px;
+		}
+		.exercises {
+			color: blue;
+			font-size: 25px;
+			text-decoration: none;
+		}
+		#underline {
+			text-decoration: underline;
+			font-size: 20px;
+			color: lime;
+		}
+
 	</style>
 	<!--p i 를 사용하여 i 태그 중에도 p태그 안에 있는 것만 선택할 수 있다.-->
 
 	</head>
 	<body>
+		<!-- 머리말-->
 		<h1>Introducing Future star</h1>
+		<!-- 스타를 소개 합니다.-->
 
 		<h2><strong> Who <i>really loves</i> tennis!</strong></h2>
 
-		<h3> 안녕하세요! 저는 문이든입니다. Hello I'm Eden Moon</h3>
+		<h3 id="Intro"> 안녕하세요! 저는 문이든입니다. Hello I'm Eden Moon</h3>
 
 		<img src="images/eden_1.jpg", width="300">
 		<h3>저는 커서 이런 사람이 될지도 몰라요</h3>
@@ -40,9 +65,9 @@
 		<p> <a href="https://ko.wikipedia.org/wiki/%EB%9D%BC%ED%8C%8C%EC%97%98_%EB%82%98%EB%8B%AC" target="_blank">Rafael Nadal</a> is <b><strong>the fabulous tennis player</strong></b> over the world!</p>
 
 		<p>to write something in <i>italic way</i>. just use < i ></p>
-
-		<p>Lorem ipsum <b>dolor</b> sit amet, <em>, sed do eiusmod</em>
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		<!-- 아래는 아무말이니 무시할 것-->
+		<p>Lorem ipsum <b class="money">dolor</b> sit amet, <em>, sed do eiusmod</em>
+		tempor incididunt ut <span id="underline">labore et dolore magna aliqua. Ut enim ad minim veniam</span>,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -54,6 +79,15 @@
 		<a href="folder1/folder2/page2.html">page2</a>
 		<p></p>
 		<a href="folder1/folder2/page3.html">page3</a>
+		<p></p>
+		<!--코드잇 실습 결과들 -->
+		<a href="exercises/duet_song.html" class="exercises">실습-듀엣가요제</a>
+		<p></p>
+		<a href="exercises/song_bridge.html" class="exercises">실습-노래브리지</a>
+		<p></p>
+		<a href="font.html" class="exercises">폰트 크기 예시</a>
+		<p></p>
+		<a href="exercises/showing_fonts.html" class="exercises">실습_각 폰트 보여주기</a>
 
 	</body>
 

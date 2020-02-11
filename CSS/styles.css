@@ -1,0 +1,25 @@
+@font-face {
+	src: url("../fonts/BMJUA_ttf.ttf");
+	font-family: "Jua";
+}
+#serif {
+	font-family: serif;
+}
+#sans-serif {
+	font-family: sans-serif;
+}
+#monospace {
+	font-family: monospace;
+}
+#cursive {
+	font-family: cursive;
+}
+#fantasy {
+	font-family: fantasy;
+}
+#google {
+	font-family: 'Zhi Mang Xing', cursive;
+}
+#download {
+	font-family: Jua;
+}
