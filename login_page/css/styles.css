@@ -40,7 +40,10 @@ body {
 	margin-top: 30px;
 	text-align: center;
 }
-
+/*hover 기능을 통해 버튼에 마우스오버 되었을 때 효과를 줄 수 있다.*/
+.submit-btn:hover {
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+}
 .links a {
 	font-size: 12px;
 	color: #9B9B9B;

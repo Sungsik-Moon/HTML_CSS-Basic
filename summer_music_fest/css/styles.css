@@ -6,9 +6,9 @@ body {
 .hero-header {
   position: relative;
   height: 684px;
-    
-  /* 여기에 입력하세요. */
-  background-color: gray; /* 이건 지우세요! */
+  background-image: url("../images/hero_image.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
 /* 세로 가운데 정렬을 위해서 */
@@ -16,6 +16,7 @@ body {
   display: inline-block;
   height: 100%;
   vertical-align: middle;
+
 }
 
 #navbar {
@@ -54,4 +55,9 @@ body {
 
 .learn-more {
   /* 여기에 입력하세요. */
+  color: white;
+  font-size: 18px;
+  border: 2px solid white;
+  padding: 8px 40px;
+  text-decoration: none;
 }

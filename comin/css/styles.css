@@ -1,0 +1,73 @@
+
+@font-face {
+	src:url("../fonts/BMJUA_otf.otf");
+	font-family: jua;
+}
+* {
+  box-sizing: border-box;
+  font-family: jua;
+  /*color: #58595b;*/
+  /*background-color: #F0E8D9;*/
+}
+body {
+	/*body가 아니고 head에 css를 입히고 있었다...*/
+	background-color: #f0e8e0;
+	margin: 0;
+/*	background-color: #F0E8D9;*/
+}
+
+.title {
+	/*h1이라고 해도 된다*/
+	font-size: 64px;
+	text-align: center;
+	margin-top: 75px;
+	color: #58595b;
+}
+.sub_title {
+	/*h2라고 해도 된다.*/
+	font-size: 32px;
+	text-align: center;
+	color: #58595b;
+	margin-top: 30px;
+	margin-bottom: 75px;
+}
+.menu {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	margin-bottom: 50px;
+	text-align: center;
+	/*border: none;*/
+	border-radius: 10px;
+	overflow: hidden;
+	/*padding-bottom: 20px;*/
+}
+/*이미지가 다양하지 않기 때문에 단순하게 img만 지정해도 된다.*/
+img {
+	width: 100%;
+/*	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+*/
+}
+/*info 클래스에 패딩을 깔끔하게 정리하면서 산만한 코드가 정리됨*/
+.menu .info {
+	padding: 20px;
+}
+/*menu 안에 있는 h3 태그 이므로 굳이 class를 지정하지 않아도 된다.*/
+.menu h3 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	/*padding-top: 20px;*/
+}
+.menu p {
+	font-size: 16px;
+	/*padding: 0 20px;*/
+	margin-bottom: 16px;
+	text-align: left;
+
+}
+.menu a {
+	color: blue;
+	text-decoration: none;
+}
