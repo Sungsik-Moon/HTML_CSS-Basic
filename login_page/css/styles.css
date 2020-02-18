@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #9B9B9B;
+  border: none;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  background-color: #1BBC9B;
+}
+
+.login-form {
+	margin: 20% auto;
+	width: 300px;
+	background: #EEEFF1;
+	padding: 20px;
+
+}
+
+.text-field {
+  font-size: 14px;
+  /*width: 260px; 100%로 아래와 같이 설정하면 따라서 키울 수 있겠다.*/
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+
+.submit-btn {
+	font-size: 14px;
+	background-color: #1BBC9B;
+	color: white;
+	width: 100%;
+	padding: 10px;
+}
+
+.links {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.links a {
+	font-size: 12px;
+	color: #9B9B9B;
+
+}
+.div1 {
+	height: 300px;
+	border: 5px solid blue;
+	background-image: url("../../images/eden_1.jpg");
+	background-repeat: no-repeat;
+	/*background-size: 150px 100%;*/
+	background-size: cover;
+	/*배경을 채우고 비율을 지킬 수 있지만 어떤 부분을 지킬지는 정하지 않음*/
+	background-position: right bottom;
+	/*위 명령어를 넣으면 오른쪽 하단이 기준이 됨*/
+}
