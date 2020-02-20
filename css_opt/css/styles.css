@@ -1,21 +1,14 @@
-/* 원본 CSS 코드 */
-
-h2 {
-  padding: 20px;
-}
-
-.box-one h2 {
+.box-orange h2 {
   font-size: 30px;
   padding: 20px;
   background: #FA987D;
 }
-
-.box-two h2 {
+.box-green h2 {
   font-size: 30px;
   padding: 20px;
   background: #72CCA7;
 }
-
+/*
 .box-three h2 {
   font-size: 30px;
   padding: 20px;
@@ -33,3 +26,4 @@ h2 {
   padding: 20px;
   background: #FA987D;
 }
+*/
