@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  
+}
+
+.info {
+	height: 220px;
+	border: 3px solid #B72920;
+	overflow: auto;
+	padding: 15px;
+  /* 이 부분을 채워주세요! */
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 200px;
+  padding: 35px;
+  border: 5px solid orange;
+  box-sizing: border-box;
+  /*box sizing 을 사용해주면 원하는 세로 가로 길이 안에 패딩과 보더를 고려하여 크기를 맞춰준다*/
+}
+
+p {
+  margin: 0;
+}

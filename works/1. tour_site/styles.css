@@ -1,0 +1,25 @@
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+}
+.menu_bar {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.menu {
+	font-size: 16px;
+	font-family: impact;
+	color: #58595B;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#pic {
+  	display: block;
+  	margin-right: auto;
+  	margin-left: auto;
+}
