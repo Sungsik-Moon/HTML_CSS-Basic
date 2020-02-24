@@ -1,0 +1,21 @@
+.container {
+	background-color: orange;
+}
+
+.alex {
+	font-size: 90px;
+	background-color: pink;
+	vertical-align: top;
+}
+
+.ben {
+	font-size: 30px;
+	background-color: lime;
+	/*vertical-align: top;*/
+}
+
+.chris {
+	font-size: 60px;
+	background-color: yellow;
+	/*vertical-align: top;*/
+}
